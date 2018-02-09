@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- jQuery !-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- jQuery UI !-->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+</head>
+<body>
+
+<h3>Список всех строк</h3>
+
+<br>
+<span id="message"></span>
+<br><br>
+
+<a href="{% url 'main' %}">На главную</a>
+
+<script type="text/javascript" src="{% static 'js/all.js' %}"></script>
+
+</body>
+</html>
